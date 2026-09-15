@@ -184,7 +184,7 @@ pain <- pain %>%
 crampp2_nsaid_emg <- left_join(crampp2_nsaid_emg, pain, by = c("subid_arm2", "study", "visit_number"))
 
 #save file
-write_csv(crampp2_nsaid_emg, "edited files/crampp2_nsaid_emg.csv")
+write_csv(crampp2_nsaid_emg, "edited files/crampp2_nsaid_emg_bl.csv")
 
 
 
