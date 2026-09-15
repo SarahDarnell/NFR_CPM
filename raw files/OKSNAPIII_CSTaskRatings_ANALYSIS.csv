@@ -483,8 +483,8 @@ subid_arm2,visit_number,study,phase,water_pain
 56,1,crampp2, Cold ,20
 66,1,crampp2, Warm ,0
 66,1,crampp2, Cold ,49
-256,0,nsaid, Warm ,0
-256,0,nsaid, Cold ,61
+667,0,nsaid, Warm ,0
+667,0,nsaid, Cold ,61
 58,1,crampp2, Warm ,0
 58,1,crampp2, Cold ,69
 57,1,crampp2, Warm ,0

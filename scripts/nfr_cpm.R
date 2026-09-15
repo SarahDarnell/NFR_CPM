@@ -171,14 +171,14 @@ pain <- pain %>%
   pivot_wider(
     id_cols = c(subid_arm2, visit_number, study),
     names_from = phase,
-    values_from = -c(subid_arm2, visit_number, study, phase),
+    values_from = water_pain,
     names_sep = "_"
   )  
 
 #rename cols
 pain <- pain %>%
   rename(warm_pain = Warm) %>%
-  rename(cold_pain = Cold)
+  rename(cold_pain = Cold) 
 
 #merge
 crampp2_nsaid_emg <- left_join(crampp2_nsaid_emg, pain, by = c("subid_arm2", "study", "visit_number"))
